@@ -39,6 +39,8 @@ private:
 
 	float LastDoorOpenTime;
 
-	AActor* ActorThatOpens; //Remember player inherits from actor
 	AActor* Owner; //Owning door
+
+	//Returns total mass in kg
+	float GetTotalMassOfActorsOnPlate();
 };
